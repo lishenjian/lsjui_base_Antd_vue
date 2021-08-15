@@ -1,14 +1,22 @@
 {
-  "name": "ceekee_components",
-  "version": "0.1.0",
-  "private": true,
+  "name": "lsjui",
+  "version": "0.0.1",
+  "description": "思客组件库，基于antd vue 二次封装",
+  "private": false,
+  "main": "lib/lsjui.common.js",
+  "keyword": "vue components antd",
+  "author": "lishenjian",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name lsjui --dest lib packages/index.js"
   },
   "dependencies": {
+    "ant-design-vue": "^1.7.7",
     "core-js": "^3.6.5",
+    "less-loader": "^5.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -16,8 +24,10 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "less": "^4.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
