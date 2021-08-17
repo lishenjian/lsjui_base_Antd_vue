@@ -1,12 +1,16 @@
 <template>
     <div>
-        <a-button type="primary">封装按钮</a-button>
+        <Button type="primary">封装按钮</Button>
     </div>
 </template>
  
 <script>
+import { Button } from 'ant-design-vue';
 export default {
-    name:"CButton",
+    name:"CkButton",
+    components: {
+        Button
+    }
 }
 </script>
  

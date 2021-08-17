@@ -1,7 +1,7 @@
 {
   "name": "lsjui",
   "version": "0.0.1",
-  "description": "思客组件库，基于antd vue 二次封装",
+  "description": "个人组件库，基于antd vue 二次封装",
   "private": false,
   "main": "lib/lsjui.common.js",
   "keyword": "vue components antd",

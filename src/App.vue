@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <c-button></c-button>
+    <ck-button></ck-button>
   </div>
 </template>
 
